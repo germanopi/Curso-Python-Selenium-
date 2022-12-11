@@ -11,4 +11,5 @@
  **Livro Automate the Boring Stuff with Python:** https://automatetheboringstuff.com/  <br />
  **Livro PensePython:** https://penseallen.github.io/PensePython2e/  <br />
   
- **Documentação Python:** https://docs.python.org/pt-br/3/tutorial/  <br />
+ **Documentação Python:** https://docs.python.org/pt-br/3/tutorial/   <br />
+ **Documentação HTML:** https://html.spec.whatwg.org/multipage/  <br />
