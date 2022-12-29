@@ -1,0 +1,158 @@
+{
+  "id": "b6efbfe3-a615-4a90-acee-7d6ed37e6c04",
+  "version": "2.0",
+  "name": "Busca Selenium Python",
+  "url": "http://google.com",
+  "tests": [{
+    "id": "63af5e8e-3b7a-4e01-9fc8-7cec2e240edb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8540b08c-5498-424c-90c4-85b06af16dec",
+      "comment": "",
+      "command": "open",
+      "target": "http://google.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93579298-3cd4-4346-bfce-b91c7a44989d",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0643e378-6d05-433c-a517-93236df2ddb1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "youtube"
+    }, {
+      "id": "3b6cb27c-6f88-40b6-a4c1-7cb4c7f2a158",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b0bb13eb-e554-4cda-940a-537e449848e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'YouTube')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a45c5ba6-116a-4c1c-96f3-479af9c360d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'YouTube')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5451c79-c4d2-48eb-90bd-0d090a807ac4",
+      "comment": "",
+      "command": "click",
+      "target": "id=img",
+      "targets": [
+        ["id=img", "id"],
+        ["css=.ytd-topbar-menu-button-renderer > #img", "css:finder"],
+        ["xpath=//img[@alt='Imagem do avatar']", "xpath:img"],
+        ["xpath=//img[@id='img']", "xpath:attributes"],
+        ["xpath=//button[@id='avatar-btn']/yt-img-shadow/img", "xpath:idRelative"],
+        ["xpath=//yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c52ab7d7-aa20-4e59-bf29-88b123e63d11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint #label",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint #label", "css:finder"],
+        ["xpath=//yt-formatted-string[@id='label']", "xpath:attributes"],
+        ["xpath=//div[@id='primary-text-container']/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//div[2]/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Seu canal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3922074-73ae-489f-b2b8-43324959e493",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content .yt-core-image--fill-parent-height",
+      "targets": [
+        ["css=#contents > .style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content .yt-core-image--fill-parent-height", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCAgCF_uTXNYoQ8Uz3bbT0dgMlStA')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0700cfb-9e32-45af-a1c2-3fa3bbc350dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(2) > #dismissible .yt-core-image--fill-parent-height",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissible .yt-core-image--fill-parent-height", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/xDFvzf3FXbA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNTIkjm-gboOgx4R3kvK_VCaOJVg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[46]", "xpath:idRelative"],
+        ["xpath=//ytd-grid-video-renderer[2]/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52f511b2-fdd9-4df1-abc7-abefc0484a21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-subheader > #title-container",
+      "targets": [
+        ["css=.grid-subheader > #title-container", "css:finder"],
+        ["xpath=(//div[@id='title-container'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissible']/div/div)[79]", "xpath:idRelative"],
+        ["xpath=//ytd-shelf-renderer/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec84246-7f9d-415b-bc2b-a9573a49433d",
+      "comment": "",
+      "command": "open",
+      "target": "http://instagram.com",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "99806e14-df13-4446-9253-c9332a66652c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63af5e8e-3b7a-4e01-9fc8-7cec2e240edb"]
+  }],
+  "urls": ["http://google.com/"],
+  "plugins": []
+}
